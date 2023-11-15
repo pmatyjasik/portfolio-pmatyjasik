@@ -16,7 +16,7 @@ export const Navigation = ({
   <nav
     className={twMerge('font-regular z-10 flex gap-10 xl:text-lg', className)}
   >
-    <NavItem href='/' text='About me' onClick={onClick} />
+    <NavItem href='#about-me' text='About me' onClick={onClick} />
     <NavItem href='/' text='Experience' onClick={onClick} />
     <NavItem href='/' text='Projects' onClick={onClick} />
     <NavItem href='/' text='Contact' onClick={onClick} />
