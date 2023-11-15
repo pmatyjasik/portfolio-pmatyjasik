@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
 import { Navigation } from '@/components/Navigation';
-import { ImageIcon } from '@/components/ImageIcon';
 import { twMerge } from 'tailwind-merge';
 import Image from 'next/image';
 
@@ -19,7 +18,7 @@ export const MobileMenu = ({ isOpen, onClick }: MobileMenuProps) => {
       <button
         type='button'
         className={twMerge(
-          'font-syne group z-50 flex h-12 w-12 items-center justify-center rounded-full bg-white text-2xl font-bold text-black transition-all duration-500 hover:scale-125',
+          'font-syne group z-50 flex h-10 w-10 items-center justify-center rounded-full bg-white text-2xl font-bold text-black transition-all duration-500 hover:scale-125',
           !isOpen && 'md:hidden'
         )}
         onClick={onClick}

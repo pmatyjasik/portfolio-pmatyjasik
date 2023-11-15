@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Link from 'next/link';
 import Image from 'next/image';
 import { Logo } from '@/atoms/Logo';
 import { Degree } from '@/components/Degree';
@@ -16,7 +17,7 @@ export const HeroSection = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className='hero-background relative h-[100svh] px-4'>
+    <div className='hero-background relative h-[100svh] overflow-hidden px-4 shadow-2xl'>
       <div className='container mx-auto h-full pt-10'>
         <header className='flex items-center justify-between'>
           <div className='flex items-center gap-5 sm:gap-10 lg:gap-32 xl:gap-64'>
@@ -51,7 +52,10 @@ export const HeroSection = () => {
               <div className='mt-16 flex gap-5 sm:hidden'>
                 <HeroContact />
               </div>
-              <div className='bg-orange group absolute bottom-0 z-10 hidden h-20 w-20 items-center justify-center hover:cursor-pointer md:flex xl:h-28 xl:w-28'>
+              <Link
+                href='#about-me'
+                className='bg-orange group absolute bottom-0 z-10 hidden h-20 w-20 items-center justify-center hover:cursor-pointer md:flex xl:h-28 xl:w-28'
+              >
                 <ImageIcon
                   src='/svgs/arrow-down.svg'
                   alt='Arrow down'
@@ -59,7 +63,7 @@ export const HeroSection = () => {
                   height={40}
                   aria-hidden
                 />
-              </div>
+              </Link>
             </div>
           </div>
         </div>

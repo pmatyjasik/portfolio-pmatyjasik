@@ -16,8 +16,12 @@ const config: Config = {
     },
     extend: {
       colors: {
-        gray: '#C8C8C8',
+        black: '#030303',
+        silver: '#C8C8C8',
         orange: '#FC6D2B',
+        stormDust: '#616161',
+        sand: '#DDCEC7',
+        sea: '#272728',
       },
     },
   },
