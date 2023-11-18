@@ -1,4 +1,5 @@
 import { poppins, syne } from '@/utils/fonts';
+import { Analytics } from '@vercel/analytics/react';
 import { ReactNode } from 'react';
 import { twMerge } from 'tailwind-merge';
 
@@ -15,5 +16,6 @@ export const RootLayout = ({ children }: RootLayoutProps) => (
     )}
   >
     {children}
+    <Analytics />
   </div>
 );
