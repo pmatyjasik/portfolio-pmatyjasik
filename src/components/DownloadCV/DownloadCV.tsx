@@ -14,7 +14,7 @@ export const DownloadCV = ({ className }: DownloadCVProps) => (
     height={24}
     className={twMerge('z-20', className)}
   >
-    <Link href='/' download>
+    <Link href='/PiotrMatyjasikCV.pdf' download>
       Download CV
     </Link>
   </IconButton>
