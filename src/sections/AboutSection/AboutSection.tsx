@@ -8,7 +8,7 @@ export const AboutSection = () => {
     <SectionLayout id='about-me'>
       <SectionTitle title='About me' />
       <div>
-        <article className='text-stormDust text-base leading-relaxed md:text-lg'>
+        <article className='text-sea text-base font-light leading-relaxed md:text-lg'>
           I'm a passionate front-end developer with approximately 3 years of
           professional experience in software development. I have a Bachelor's
           of Computer Science from the West Pomeranian University of Technology.
@@ -26,7 +26,7 @@ export const AboutSection = () => {
           <h2 className='font-syne text-sea min-w-fit text-lg font-bold md:text-xl lg:text-2xl'>
             TECHNOLOGIES
           </h2>
-          <hr className='text-sand w-full' />
+          <hr className='w-full' />
         </div>
         <ChildrenAnimation className='mt-10 grid grid-cols-2 grid-rows-3 gap-6 md:grid-cols-3 md:grid-rows-2'>
           <TechnologyItem

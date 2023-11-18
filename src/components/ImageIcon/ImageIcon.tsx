@@ -13,6 +13,6 @@ export const ImageIcon = ({ src, alt, width, height }: ImageIconProps) => (
     alt={alt}
     width={width}
     height={height}
-    className='z-10 transition-all duration-500 hover:scale-150 hover:cursor-pointer'
+    className='z-10 transition-all duration-500 hover:scale-125 hover:cursor-pointer'
   />
 );
