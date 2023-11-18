@@ -9,12 +9,13 @@ export const AboutSection = () => {
       <SectionTitle title='About me' />
       <div>
         <article className='text-sea text-base font-light leading-relaxed md:text-lg'>
-          I'm a passionate front-end developer with approximately 3 years of
-          professional experience in software development. I have a Bachelor's
-          of Computer Science from the West Pomeranian University of Technology.
-          Currently, I'm studying towards a master's degree in management at the
-          University of Szczecin, where I'm navigating the balance between
-          theoretical knowledge and real-world programming challenges.
+          I&#39; m a passionate front-end developer with approximately 3 years
+          of professional experience in software development. I have a
+          Bachelor&#39;s of Computer Science from the West Pomeranian University
+          of Technology. Currently, I&#39; m studying towards a master&#39; s
+          degree in management at the University of Szczecin, where I&#39; m
+          navigating the balance between theoretical knowledge and real-world
+          programming challenges.
           <br />
           <br />
           Driven by a desire for continuous growth in the software development
