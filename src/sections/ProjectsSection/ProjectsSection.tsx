@@ -13,8 +13,8 @@ export const ProjectsSection = () => (
           src='/images/formsLab.png'
           alt='FormsLab'
           title='FormsLab'
-          description='The application is under continuous development (open source). Technologies used: Next.js, Typescript, TailwindCSS, Firebase.'
-          technologies='Next.js, Typescript, TailwindCSS, Firebase'
+          description='An application for creating anonymous or non-anonymous surveys and responding to them. The application has become an open-sourced application.'
+          technologies='Next.js, Typescript, TailwindCSS'
           pageHref='https://formslab.vercel.app/'
           gitHref='https://github.com/Ryczko/FormsLab'
         />
@@ -22,8 +22,8 @@ export const ProjectsSection = () => (
           src='/images/yourBooks.png'
           alt='YourBooks'
           title='YourBooks'
-          description='The application was developed for an engineering thesis. Technologies used: Next.js, Typescript, TailwindCSS, Firebase.'
-          technologies='Next.js, Typescript, TailwindCSS, Firebase'
+          description='An application to search for books in the Google database and manage their status on the Kanban board using drag And drop.'
+          technologies='Next.js, Typescript, TailwindCSS, Firebase, React Query'
           pageHref='https://your-books-engineer.vercel.app/'
           gitHref='https://github.com/pmatyjasik/your-books'
         />
@@ -31,8 +31,7 @@ export const ProjectsSection = () => (
           src='/images/quization.png'
           alt='Quization'
           title='Quization'
-          description='Project carried out at the University. Technologies used: Next.js,
-              Typescript, TailwindCSS, Firebase.'
+          description='An application for digital competency testing. The purpose of the application is to take quizzes and monitor the results.'
           technologies='Next.js,
               Typescript, TailwindCSS, Firebase'
           pageHref='https://quization.vercel.app/'
