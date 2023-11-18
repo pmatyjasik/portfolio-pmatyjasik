@@ -1,8 +1,16 @@
+import { twMerge } from 'tailwind-merge';
+
 interface SectionTitleProps {
   title: string;
+  className?: string;
 }
-export const SectionTitle = ({ title }: SectionTitleProps) => (
-  <h2 className='font-syne mb-5 min-w-fit text-4xl font-medium text-black md:mb-0 lg:text-5xl xl:text-6xl'>
+export const SectionTitle = ({ title, className }: SectionTitleProps) => (
+  <h2
+    className={twMerge(
+      'font-syne text-sea mb-5 text-4xl font-medium md:mb-0 lg:text-5xl xl:text-6xl',
+      className
+    )}
+  >
     {title}
   </h2>
 );

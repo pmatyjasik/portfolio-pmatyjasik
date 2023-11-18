@@ -30,7 +30,7 @@ export const HeroSection = () => {
             onClick={() => setIsOpen((prev) => !prev)}
           />
         </header>
-        <div className='pt-10 lg:pt-20 xl:pt-32'>
+        <div className='pt-10 xl:pt-20 2xl:pt-32'>
           <div className='flex gap-5 sm:gap-10 lg:gap-32 xl:gap-64'>
             <div className='flex w-12 justify-center'>
               <Image
@@ -41,7 +41,7 @@ export const HeroSection = () => {
                 height={281}
                 className='h-full'
               />
-              <div className='absolute bottom-20 hidden flex-col gap-3 sm:flex xl:bottom-44'>
+              <div className='absolute bottom-20 hidden flex-col gap-3 sm:flex xl:bottom-28 2xl:bottom-44'>
                 <HeroContact />
               </div>
             </div>
@@ -54,7 +54,7 @@ export const HeroSection = () => {
               </div>
               <Link
                 href='#about-me'
-                className='bg-orange group absolute bottom-0 z-10 hidden h-20 w-20 items-center justify-center hover:cursor-pointer md:flex xl:h-28 xl:w-28'
+                className='bg-orange group absolute bottom-0 z-10 hidden h-24 w-24 items-center justify-center hover:cursor-pointer md:flex 2xl:h-28 2xl:w-28'
               >
                 <ImageIcon
                   src='/svgs/arrow-down.svg'
