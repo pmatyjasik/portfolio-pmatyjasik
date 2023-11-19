@@ -16,7 +16,7 @@ export const Footer = () => (
         <div className='flex w-full items-center justify-between'>
           <DownloadCV className='flex items-center' />
           <div className='flex items-center gap-5'>
-            <span className='text-xs font-extralight'>FOLLOWE ME:</span>
+            <span className='text-xs font-extralight'>FOLLOW ME:</span>
             <HeroContact />
           </div>
         </div>
