@@ -1,3 +1,4 @@
+import { InitialLoader } from '@/components/InitialLodaer';
 import { AboutSection } from '@/sections/AboutSection';
 import { ContactSection } from '@/sections/ContactSection';
 import { ExperienceSection } from '@/sections/ExperienceSection';
@@ -8,6 +9,7 @@ import Head from 'next/head';
 
 const Home = () => (
   <>
+    <InitialLoader />
     <Head>
       <title>Piotr Matyjasik</title>
     </Head>
