@@ -1,5 +1,4 @@
 import { IconButton } from '@/atoms/IconButton';
-import Link from 'next/link';
 import { twMerge } from 'tailwind-merge';
 
 interface DownloadCVProps {
@@ -12,10 +11,10 @@ export const DownloadCV = ({ className }: DownloadCVProps) => (
     alt='Download icon'
     width={24}
     height={24}
-    className={twMerge('z-20', className)}
+    className={twMerge('z-20 pointer-events-none opacity-50', className)}
   >
-    <Link href='/PiotrMatyjasikCV.pdf' download>
-      Download CV
-    </Link>
+    {/* <Link href='/PiotrMatyjasikCV.pdf' download> */}
+    Download CV
+    {/* </Link> */}
   </IconButton>
 );
