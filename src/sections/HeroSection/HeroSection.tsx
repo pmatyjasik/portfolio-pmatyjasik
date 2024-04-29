@@ -11,7 +11,6 @@ import { Role } from '@/components/Role';
 import { WebBackground } from '@/components/WebBackground';
 import { HeroContact } from '@/components/HeroContact';
 import { MobileMenu } from '@/components/MobileMenu';
-import { DownloadCV } from '@/components/DownloadCV';
 
 export const HeroSection = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,7 +23,6 @@ export const HeroSection = () => {
             <Logo />
             <Navigation className='hidden md:flex' />
           </div>
-          <DownloadCV />
           <MobileMenu
             isOpen={isOpen}
             onClick={() => setIsOpen((prev) => !prev)}

@@ -48,7 +48,6 @@ export const MobileMenu = ({ isOpen, onClick }: MobileMenuProps) => {
         className='hero-background fixed left-0 top-0 z-20 flex h-screen w-screen flex-col items-center justify-center'
       >
         <Navigation
-          downloadCV
           className='flex-col items-center text-lg'
           onClick={onClick}
         />
