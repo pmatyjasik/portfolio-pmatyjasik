@@ -18,11 +18,11 @@ const config: Config = {
       colors: {
         black: '#030303',
         silver: '#C8C8C8',
-        orange: '#FC6D2B',
+        orange: '#D54300',
         stormDust: '#616161',
         sand: '#DDCEC7',
         sea: '#272728',
-        granite: '#807E7E',
+        granite: '#595858',
         cyanBlue: '#FAFBFC',
         lightGrey: '#D9D9D9',
         softPeach: '#EDEFF1',
