@@ -13,7 +13,7 @@ import { MobileMenu } from '@/components/MobileMenu';
 import { DownloadCV } from '@/components/DownloadCV';
 
 export const HeroSection = () => (
-  <div className='relative  h-svh overflow-hidden bg-[linear-gradient(180deg,#010101,#0F0F44)] px-4 shadow-2xl'>
+  <div className='bg-hero-gradient  relative h-svh overflow-hidden px-4 shadow-2xl'>
     <div className='container mx-auto h-full pt-10'>
       <header className='flex items-center justify-between'>
         <div className='flex items-center gap-5 sm:gap-10 lg:gap-32 xl:gap-64'>

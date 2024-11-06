@@ -25,7 +25,7 @@ export const RootLayout = ({ children }: RootLayoutProps) => (
     className={twMerge(
       syne.variable,
       poppins.variable,
-      'scroll-smooth font-poppins text-white'
+      'font-poppins text-white'
     )}
   >
     {children}

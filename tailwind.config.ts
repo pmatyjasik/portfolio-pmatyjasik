@@ -28,6 +28,9 @@ const config: Config = {
         softPeach: '#EDEFF1',
         frenchGrey: '#BEBEBE',
       },
+      backgroundImage: {
+        'hero-gradient': 'linear-gradient(180deg, #010101, #0F0F44)',
+      },
     },
   },
   plugins: [],

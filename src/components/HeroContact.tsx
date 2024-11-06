@@ -28,7 +28,7 @@ export const HeroContact = () => (
         href={href}
         rel='noopener noreferrer'
         target='_blank'
-        className='z-10'
+        className='z-20'
       >
         <ImageIcon
           src={imgSrc}

@@ -21,34 +21,23 @@ export const MobileMenu = () => {
       <button
         type='button'
         className={twMerge(
-          'group z-50 flex h-10 w-10 items-center justify-center rounded-full bg-white font-syne text-2xl font-bold text-black transition-all duration-500 hover:scale-125',
+          'group z-50 flex h-10 w-10 items-center justify-center rounded-full bg-white font-syne text-2xl font-bold text-black',
           !isOpen && 'md:hidden'
         )}
         onClick={toggleMenu}
       >
-        <div className='transition-all duration-500 group-hover:scale-150'>
-          {isOpen ? (
-            <Image
-              src='/svgs/close-menu.svg'
-              alt='Menu'
-              width={17}
-              height={14}
-            />
-          ) : (
-            <Image
-              src='/svgs/open-menu.svg'
-              alt='Menu'
-              width={17}
-              height={14}
-            />
-          )}
-        </div>
+        <Image
+          src={isOpen ? '/svgs/close-menu.svg' : '/svgs/open-menu.svg'}
+          alt='Menu'
+          width={17}
+          height={14}
+        />
       </button>
       <motion.div
         animate={isOpen ? 'open' : 'closed'}
         initial='closed'
         variants={variants}
-        className='hero-background fixed left-0 top-0 z-20 flex h-screen w-screen flex-col items-center justify-center'
+        className='bg-hero-gradient fixed left-0 top-0 z-30 flex h-screen w-screen flex-col items-center justify-center'
       >
         <Navigation
           onClick={toggleMenu}
