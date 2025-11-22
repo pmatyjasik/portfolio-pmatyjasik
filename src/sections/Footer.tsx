@@ -24,7 +24,7 @@ export const Footer = () => (
     </div>
     <div className='bg-[#121415] py-3 text-center'>
       <p className='text-xs font-light md:text-sm'>
-        © Copyright 2023 · All Rights Reserved ·{' '}
+        © Copyright {new Date().getFullYear()} · All Rights Reserved ·{' '}
         <span className='font-medium'>Piotr Matyjasik</span>
       </p>
     </div>

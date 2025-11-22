@@ -19,8 +19,8 @@ export const ExperienceSection = () => (
         date='May 2023 - Present'
         company='WIRTUALNA POLSKA'
         position='Front-end Develper'
-        description='My role at the company involves developing and bug fixing. I actively take part in numerous projects, including creating user interfaces, implementing new functionalities, and resolving issues. I collaborate with the development team and system architects, participating in defining project architecture and establishing project requirements.'
-        technologies='React, Next.js, Javascript, Typescript, HTML, CSS, TailwindCSS, SCSS, Git, REST API, GraphQL, MobX, MobX-StateTree, Jotai, Jest, React Testing Library, Node.js'
+        description='I build and improve frontend features while contributing across the full stack, including databases and backend services. I design and develop AI agents to automate workflows. My work involves cross-functional collaboration with product, DevOps, and architecture teams throughout the entire project lifecycle, from requirements to implementation.'
+        technologies='React, Next.js, Javascript, Typescript, HTML, CSS, TailwindCSS, SCSS, Git, REST API, GraphQL, MobX, Jotai, Jest, React Testing Library, Node.js, Express, React Router, Artifical Intelligence, AI agent workflows'
       />
       <TimelineItem
         date='September 2022 - May 2023'

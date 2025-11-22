@@ -22,13 +22,14 @@ export const AboutSection = () => (
     <SectionTitle title='About me' />
     <div>
       <article className='text-base font-light leading-relaxed text-sea md:text-lg'>
-        I&#39;m a passionate front-end developer with over 3 years of
-        professional experience in software development. I have a Bachelor&#39;s
-        of Computer Science from the West Pomeranian University of Technology.
-        Currently, I&#39; m studying towards a master&#39; s degree in
-        management at the University of Szczecin, where I&#39; m navigating the
-        balance between theoretical knowledge and real-world programming
-        challenges.
+        I’m a passionate software developer with nearly 5 years of experience,
+        specializing in front-end development while also working across backend
+        technologies. I focus on building intuitive, high-quality user
+        interfaces and reliable backend systems. In my current role, I
+        collaborate on AI-powered tools and full-stack development workflows.
+        <br />
+        <br />
+        In my free time, I build iOS apps using React Native.
         <br />
         <br />
         Driven by a desire for continuous growth in the software development

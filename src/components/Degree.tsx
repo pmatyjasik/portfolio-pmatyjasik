@@ -1,7 +1,7 @@
 import Image from 'next/image';
 
 export const Degree = () => (
-  <div className='mt-5 flex items-center gap-8 md:mt-20'>
+  <div className='flex items-center gap-8'>
     <Image
       src='/svgs/order.svg'
       alt='Order'
@@ -9,8 +9,13 @@ export const Degree = () => (
       height={33}
       className='h-[33px] w-[46px]'
     />
-    <h2 className='font-thin md:text-xl xl:text-2xl'>
-      Bachelor of Computer Science
-    </h2>
+    <div className='flex flex-col items-center gap-y-2 md:gap-y-4'>
+      <h2 className='font-thin md:text-xl xl:text-2xl'>
+        Bachelor of Computer Science
+      </h2>
+      <h2 className='font-thin md:text-xl xl:text-2xl'>
+        Master of Project Management
+      </h2>
+    </div>
   </div>
 );

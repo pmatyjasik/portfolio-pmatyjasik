@@ -8,7 +8,7 @@ interface ProjectItemProps {
   description: string;
   technologies: string;
   pageHref: string;
-  gitHref: string;
+  gitHref?: string;
 }
 
 export const ProjectItem = ({
@@ -54,21 +54,23 @@ export const ProjectItem = ({
             className='size-7'
           />
         </Link>
-        <Link
-          className='flex items-center gap-1 px-3 py-1 transition-all duration-500 hover:scale-110 hover:cursor-pointer'
-          href={gitHref}
-          rel='noopener noreferrer'
-          target='_blank'
-        >
-          <Image
-            src='/svgs/button-github.svg'
-            alt='Github'
-            width={28}
-            height={28}
-            className='size-7'
-          />
-          <span className='font-medium'>View GitHub</span>
-        </Link>
+        {gitHref && (
+          <Link
+            className='flex items-center gap-1 px-3 py-1 transition-all duration-500 hover:scale-110 hover:cursor-pointer'
+            href={gitHref}
+            rel='noopener noreferrer'
+            target='_blank'
+          >
+            <Image
+              src='/svgs/button-github.svg'
+              alt='Github'
+              width={28}
+              height={28}
+              className='size-7'
+            />
+            <span className='font-medium'>View GitHub</span>
+          </Link>
+        )}
       </div>
     </div>
   </article>
