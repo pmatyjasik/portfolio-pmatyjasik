@@ -22,11 +22,11 @@ export const AboutSection = () => (
     <SectionTitle title='About me' />
     <div>
       <article className='text-base font-light leading-relaxed text-sea md:text-lg'>
-        I’m a passionate software developer with nearly 5 years of experience,
-        specializing in front-end development while also working across backend
-        technologies. I focus on building intuitive, high-quality user
-        interfaces and reliable backend systems. In my current role, I
-        collaborate on AI-powered tools and full-stack development workflows.
+        I’m a passionate software developer specializing in front-end
+        development while also working across backend technologies. I focus on
+        building intuitive, high-quality user interfaces and reliable backend
+        systems. In my current role, I collaborate on AI-powered tools and
+        full-stack development workflows.
         <br />
         <br />
         In my free time, I build iOS apps using React Native.
