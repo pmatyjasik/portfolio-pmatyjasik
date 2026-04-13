@@ -26,12 +26,12 @@ export const MobileMenu = () => {
         )}
         onClick={toggleMenu}
       >
-        {/* <Image
+        <Image
           src={isOpen ? '/svgs/close-menu.svg' : '/svgs/open-menu.svg'}
           alt='Menu'
           width={17}
           height={14}
-        /> */}
+        />
       </button>
       <motion.div
         animate={isOpen ? 'open' : 'closed'}
