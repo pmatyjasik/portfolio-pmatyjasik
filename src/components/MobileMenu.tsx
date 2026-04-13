@@ -26,18 +26,18 @@ export const MobileMenu = () => {
         )}
         onClick={toggleMenu}
       >
-        <Image
+        {/* <Image
           src={isOpen ? '/svgs/close-menu.svg' : '/svgs/open-menu.svg'}
           alt='Menu'
           width={17}
           height={14}
-        />
+        /> */}
       </button>
       <motion.div
         animate={isOpen ? 'open' : 'closed'}
         initial='closed'
         variants={variants}
-        className='bg-hero-gradient fixed left-0 top-0 z-30 flex h-screen w-screen flex-col items-center justify-center'
+        className='fixed left-0 top-0 z-30 flex h-screen w-screen flex-col items-center justify-center bg-hero-gradient'
       >
         <Navigation
           onClick={toggleMenu}
