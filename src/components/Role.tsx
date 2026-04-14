@@ -10,7 +10,7 @@ export const Role = () => (
       className='h-[19px] w-[38px]'
     />
     <h2 className='text-xl font-normal text-silver lg:text-xl xl:text-2xl 2xl:text-2xl'>
-      Front-End Developer
+      Front-End Developerfdsfdfdsf
     </h2>
   </div>
 );
