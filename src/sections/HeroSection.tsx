@@ -13,7 +13,7 @@ import { MobileMenu } from '@/components/MobileMenu';
 import { DownloadCV } from '@/components/DownloadCV';
 
 export const HeroSection = () => (
-  <div className='relative  h-svh overflow-hidden bg-hero-gradient px-4 shadow-2xl'>
+  <div className='relative h-svh overflow-hidden bg-hero-gradient px-4 shadow-2xl'>
     <div className='container mx-auto h-full pt-10'>
       <header className='flex items-center justify-between'>
         <div className='flex items-center gap-5 sm:gap-10 lg:gap-32 xl:gap-64'>
@@ -48,7 +48,7 @@ export const HeroSection = () => (
             </div>
             <Link
               href='#about-me'
-              className='absolute bottom-0 z-10 hidden h-24 w-24 items-center justify-center bg-orange hover:cursor-pointer md:flex 2xl:h-28 2xl:w-28'
+              className='absolute bottom-0 z-10 hidden h-24 w-24 items-center justify-center bg-orange-600 hover:cursor-pointer md:flex 2xl:h-28 2xl:w-28'
             >
               <ImageIcon
                 src='/svgs/arrow-down.svg'

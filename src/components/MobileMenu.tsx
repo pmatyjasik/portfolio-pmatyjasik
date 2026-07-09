@@ -1,12 +1,12 @@
-import { motion } from 'framer-motion';
+import { motion, type Variants } from 'framer-motion';
 import { Navigation } from '@/components/Navigation';
 import { twMerge } from 'tailwind-merge';
 import Image from 'next/image';
 import { useState } from 'react';
 
-const variants = {
-  open: { x: 0, transition: { type: 'linear' } },
-  closed: { x: '100%', transition: { type: 'linear' } },
+const variants: Variants = {
+  open: { x: 0, transition: { type: 'tween', ease: 'linear' } },
+  closed: { x: '100%', transition: { type: 'tween', ease: 'linear' } },
 };
 
 export const MobileMenu = () => {
@@ -37,7 +37,7 @@ export const MobileMenu = () => {
         animate={isOpen ? 'open' : 'closed'}
         initial='closed'
         variants={variants}
-        className='bg-hero-gradient fixed left-0 top-0 z-30 flex h-screen w-screen flex-col items-center justify-center'
+        className='fixed top-0 left-0 z-30 flex h-screen w-screen flex-col items-center justify-center bg-hero-gradient'
       >
         <Navigation
           onClick={toggleMenu}

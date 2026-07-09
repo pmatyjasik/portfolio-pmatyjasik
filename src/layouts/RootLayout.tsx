@@ -5,14 +5,14 @@ import { Syne, Poppins } from 'next/font/google';
 const syne = Syne({
   subsets: ['latin'],
   display: 'swap',
-  variable: '--font-syne',
+  variable: '--font-syne-family',
   weight: ['400', '500', '600', '700', '800'],
 });
 
 const poppins = Poppins({
   subsets: ['latin'],
   display: 'swap',
-  variable: '--font-poppins',
+  variable: '--font-poppins-family',
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
 });
 

@@ -21,23 +21,23 @@ export const TimelineItem = ({
 }: TimelineItemProps) => (
   <motion.li className={twMerge(!isFirst && 'pt-6')} variants={eachChildren}>
     <div className='flex-start flex'>
-      <div className='ring-orange -ml-1 mr-3 h-2 w-2 rounded-full bg-white ring-4' />
-      <h2 className='text-orange -mt-[10px] ml-6 text-base font-medium md:text-lg'>
+      <div className='mr-3 -ml-1 h-2 w-2 rounded-full bg-white ring-4 ring-orange-600' />
+      <h2 className='-mt-[10px] ml-6 text-base font-medium text-orange-600 md:text-lg'>
         {date}
       </h2>
     </div>
-    <article className='mb-10 ml-10 mt-3'>
-      <h3 className='font-syne text-sea text-lg font-bold md:text-xl lg:text-2xl'>
+    <article className='mt-3 mb-10 ml-10'>
+      <h3 className='font-syne text-lg font-bold text-gray-800 md:text-xl lg:text-2xl'>
         {company}
       </h3>
-      <h4 className='font-syne text-granite mt-1 text-base md:text-lg'>
+      <h4 className='mt-1 font-syne text-base text-gray-700 md:text-lg'>
         {position}
       </h4>
-      <p className='text-sea mt-5 text-base font-light leading-relaxed md:text-lg'>
+      <p className='mt-5 text-base leading-relaxed font-light text-gray-800 md:text-lg'>
         {description}
       </p>
       {technologies && (
-        <p className='text-sea mt-5 text-base font-light leading-relaxed md:text-lg'>
+        <p className='mt-5 text-base leading-relaxed font-light text-gray-800 md:text-lg'>
           <span className='mr-2 font-medium'>Technologies:</span>
           {technologies}.
         </p>

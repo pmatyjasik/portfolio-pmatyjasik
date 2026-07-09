@@ -8,7 +8,7 @@ export const ExperienceSection = () => (
   <SectionLayout id='experience'>
     <SectionTitle title='Experience' />
     <motion.ol
-      className='mt-10 border-l border-sand md:mt-4'
+      className='mt-10 border-l border-stone-300 md:mt-4'
       variants={containerEachChildren}
       initial='hidden'
       whileInView='show'

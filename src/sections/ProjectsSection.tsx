@@ -2,13 +2,13 @@ import { SectionTitle } from '@/components/SectionTitle';
 import { ProjectItem } from '@/components/ProjectItem';
 
 export const ProjectsSection = () => (
-  <div className='h-full w-full bg-cyanBlue'>
+  <div className='h-full w-full bg-gray-50'>
     <section
       className='container mx-auto mt-20 h-full px-4 py-12 md:mt-40'
       id='my-projects'
     >
       <SectionTitle title='My Projects' className='text-center' />
-      <div className='mt-12 flex flex-col divide-y'>
+      <div className='mt-12 flex flex-col divide-y divide-gray-200'>
         <ProjectItem
           src='/images/isao.png'
           alt='Isao - Daily Quotes'

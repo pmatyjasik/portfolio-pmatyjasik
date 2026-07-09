@@ -11,8 +11,8 @@ export const Footer = () => (
         <Navigation className='mt-8 flex-col items-baseline gap-5 md:mt-0 md:flex-row md:gap-10' />
       </div>
     </div>
-    <div className='border-t border-white border-opacity-20'>
-      <div className='container mx-auto h-full px-4  py-6'>
+    <div className='border-opacity-20 border-t border-white'>
+      <div className='container mx-auto h-full px-4 py-6'>
         <div className='flex w-full items-center justify-between'>
           <DownloadCV />
           <div className='flex items-center gap-5'>

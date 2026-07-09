@@ -21,7 +21,7 @@ export const AboutSection = () => (
   <SectionLayout id='about-me'>
     <SectionTitle title='About me' />
     <div>
-      <article className='text-base font-light leading-relaxed text-sea md:text-lg'>
+      <article className='text-base leading-relaxed font-light text-gray-800 md:text-lg'>
         I’m a passionate software developer specializing in front-end
         development while also working across backend technologies. I focus on
         building intuitive, high-quality user interfaces and reliable backend
@@ -38,7 +38,7 @@ export const AboutSection = () => (
         by learning new technologies to stay up-to-date.
       </article>
       <div className='mt-16 flex items-center gap-5'>
-        <h2 className='min-w-fit font-syne text-lg font-bold text-sea md:text-xl lg:text-2xl'>
+        <h2 className='min-w-fit font-syne text-lg font-bold text-gray-800 md:text-xl lg:text-2xl'>
           TECHNOLOGIES
         </h2>
         <hr className='w-full' />

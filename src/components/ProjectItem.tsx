@@ -27,20 +27,20 @@ export const ProjectItem = ({
       width={570}
       height={321}
       priority
-      className='items-center bg-softPeach p-5'
+      className='items-center bg-gray-100 p-5'
     />
-    <div className='text-sea'>
+    <div className='text-gray-800'>
       <h3 className='text-lg font-bold md:text-xl lg:text-2xl'>{title}</h3>{' '}
-      <p className=' mt-4 text-base font-light leading-relaxed xl:mt-6 xl:text-lg'>
+      <p className='mt-4 text-base leading-relaxed font-light xl:mt-6 xl:text-lg'>
         {description}
       </p>
-      <p className='mt-2 text-base font-light leading-relaxed xl:text-lg'>
-        <span className='mr-2 mt-2 font-medium lg:mt-4'>Technologies:</span>
+      <p className='mt-2 text-base leading-relaxed font-light xl:text-lg'>
+        <span className='mt-2 mr-2 font-medium lg:mt-4'>Technologies:</span>
         {technologies}.
       </p>
       <div className='mt-4 flex items-center gap-5 xl:mt-6'>
         <Link
-          className='flex items-center gap-1 border border-frenchGrey px-4 py-2 transition-all duration-500 hover:scale-110 hover:cursor-pointer'
+          className='flex items-center gap-1 border border-gray-500 px-4 py-2 transition-all duration-500 hover:scale-110 hover:cursor-pointer'
           href={pageHref}
           rel='noopener noreferrer'
           target='_blank'

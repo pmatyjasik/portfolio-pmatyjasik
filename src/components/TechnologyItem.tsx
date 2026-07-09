@@ -15,6 +15,6 @@ export const TechnologyItem = ({
 }: TechnologyItemProps) => (
   <motion.div className='flex items-center gap-3' variants={eachChildren}>
     <ImageIcon src={src} alt={alt} height={28} width={28} className='size-7' />
-    <span className='font-light text-sea'>{technology}</span>
+    <span className='font-light text-gray-800'>{technology}</span>
   </motion.div>
 );
