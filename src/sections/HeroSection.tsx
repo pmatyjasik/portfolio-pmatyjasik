@@ -10,7 +10,6 @@ import { Role } from '@/components/Role';
 import { WebBackground } from '@/components/WebBackground';
 import { HeroContact } from '@/components/HeroContact';
 import { MobileMenu } from '@/components/MobileMenu';
-import { DownloadCV } from '@/components/DownloadCV';
 
 export const HeroSection = () => (
   <div className='relative h-svh overflow-hidden bg-hero-gradient px-4 shadow-2xl'>
@@ -20,7 +19,6 @@ export const HeroSection = () => (
           <Logo />
           <Navigation className='hidden md:flex' />
         </div>
-        <DownloadCV />
         <MobileMenu />
       </header>
       <div className='pt-10 xl:pt-20 2xl:pt-32'>
@@ -31,7 +29,7 @@ export const HeroSection = () => (
               alt='Arrow bottom'
               width={12}
               height={281}
-              className='h-[281px] w-3'
+              className='h-70.25 w-3'
             />
             <div className='absolute bottom-20 hidden flex-col gap-3 sm:flex xl:bottom-28 2xl:bottom-44'>
               <HeroContact />

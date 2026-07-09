@@ -16,11 +16,18 @@ export const ExperienceSection = () => (
     >
       <TimelineItem
         isFirst
-        date='May 2023 - Present'
-        company='WIRTUALNA POLSKA'
+        date='March 2026 - July 2026'
+        company='TESTERARMY (Y COMBINATOR P26)'
+        position='Co-Founder / Lead Engineer'
+        description='I co-founded a Y Combinator (P26) startup and was its lead engineer - I built the product end-to-end. I built an AI agent that autonomously tests web and mobile apps: it navigates and clicks through an app like a real user (LLM tool-calling and context management) to surface bugs and regressions before release. We shipped the MVP to first users during the batch, iterating on real feedback.'
+        technologies='TypeScript, React, Next.js, Node.js, LLM APIs, Tool-calling, AI Agents'
+      />
+      <TimelineItem
+        date='May 2023 - March 2026'
+        company='GRUPA WIRTUALNA POLSKA'
         position='Front-end Developer'
-        description='I build and improve frontend features while contributing across the full stack, including databases and backend services. I design and develop AI agents to automate workflows. My work involves cross-functional collaboration with product, DevOps, and architecture teams throughout the entire project lifecycle, from requirements to implementation.'
-        technologies='React, Next.js, Javascript, Typescript, HTML, CSS, TailwindCSS, SCSS, Git, REST API, GraphQL, MobX, Jotai, Jest, React Testing Library, Node.js, Express, React Router, Artificial Intelligence, AI agent workflows'
+        description='I built and shipped frontend features for high-traffic products at one of Poland/CEE&apos;s largest media groups. I implemented tracking and web analytics (tag management, tracking pixels), enabling product and marketing teams to measure and act on user behavior, and designed AI agents automating internal developer workflows.'
+        technologies='React, Next.js, Javascript, Typescript, HTML, CSS, TailwindCSS, SCSS, Git, REST API, GraphQL, MobX, Jotai, Jest, React Testing Library, Node.js, Express, React Router, AI agent workflows'
       />
       <TimelineItem
         date='September 2022 - May 2023'

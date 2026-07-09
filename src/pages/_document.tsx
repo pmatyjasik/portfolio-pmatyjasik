@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang='en'>
       <Head />
-      <body>
+      <body className='has-data-[open=true]:overflow-hidden'>
         <Main />
         <NextScript />
       </body>

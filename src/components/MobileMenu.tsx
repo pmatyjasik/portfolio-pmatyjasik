@@ -34,16 +34,13 @@ export const MobileMenu = () => {
         />
       </button>
       <motion.div
+        data-open={isOpen}
         animate={isOpen ? 'open' : 'closed'}
         initial='closed'
         variants={variants}
         className='fixed top-0 left-0 z-30 flex h-screen w-screen flex-col items-center justify-center bg-hero-gradient'
       >
-        <Navigation
-          onClick={toggleMenu}
-          downloadCV
-          className='flex-col items-center text-lg'
-        />
+        <Navigation onClick={toggleMenu} className='flex-col items-center text-lg' />
       </motion.div>
     </>
   );

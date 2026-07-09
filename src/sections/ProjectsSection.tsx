@@ -13,23 +13,25 @@ export const ProjectsSection = () => (
           src='/images/isao.png'
           alt='Isao - Daily Quotes'
           title='Isao - Daily Quotes'
-          description='An iOS app that delivers super-personalized motivational quotes every day, tailored to your unique goals and mindset. Features AI-driven personalization, daily affirmations, and a clean intuitive design.'
-          technologies='React Native, Artificial Intelligence (AI), Product Development, Social Media Marketing, Typescript'
+          description='AI-powered iOS app: daily motivational quotes personalized to the user&apos;s goals by an LLM. Live on the App Store.'
+          technologies='React Native, Typescript, LLM-based personalization'
           pageHref='https://apps.apple.com/us/app/isao-daily-quotes/id6755051258'
+          disabled
         />
         <ProjectItem
           src='/images/kai.png'
           alt='Kai - Smart Shopping List'
           title='Kai - Smart Shopping List'
-          description='An intelligent shopping list app with AI-powered item categorization and smart suggestions. Create and manage multiple lists with real-time syncing and lightning-fast performance in a clean, intuitive iOS interface.'
-          technologies='React Native, Artificial Intelligence (AI), Product Development, Typescript'
+          description='iOS shopping-list app with AI-powered item categorization and real-time sync across multiple lists. Live on the App Store.'
+          technologies='React Native, Typescript, AI categorization'
           pageHref='https://apps.apple.com/pl/app/kai-grocery-list/id6747010480'
+          disabled
         />
         <ProjectItem
           src='/images/verly.png'
           alt='Verly CMS - Appointment Management'
           title='Verly CMS - Appointment Management'
-          description='A tool designed to help businesses manage customers and schedule appointments with ease. Currently in active development, Verly focuses on delivering a powerful web-based platform for streamlined customer and appointment management.'
+          description='Web platform for customer and appointment management for service businesses. In active development.'
           technologies='Next.js, Supabase, React, Typescript'
           pageHref='https://cms.verly.app/en'
         />
@@ -37,7 +39,7 @@ export const ProjectsSection = () => (
           src='/images/formsLab.webp'
           alt='FormsLab'
           title='FormsLab'
-          description='An application for creating anonymous or non-anonymous surveys and responding to them. The application has become an open-sourced application.'
+          description='Open-source form builder for anonymous surveys, polls and feedback collection - 540+ stars on GitHub. One of the top contributors to the project.'
           technologies='Next.js, Typescript, TailwindCSS'
           pageHref='https://formslab.vercel.app/'
           gitHref='https://github.com/Ryczko/FormsLab'

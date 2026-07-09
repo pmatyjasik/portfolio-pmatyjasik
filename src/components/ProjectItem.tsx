@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { twMerge } from 'tailwind-merge';
 
 interface ProjectItemProps {
   src: string;
@@ -9,6 +10,7 @@ interface ProjectItemProps {
   technologies: string;
   pageHref: string;
   gitHref?: string;
+  disabled?: boolean;
 }
 
 export const ProjectItem = ({
@@ -19,6 +21,7 @@ export const ProjectItem = ({
   technologies,
   pageHref,
   gitHref,
+  disabled,
 }: ProjectItemProps) => (
   <article className='grid items-center gap-5 py-8 md:grid-cols-2 md:gap-10 lg:gap-12 xl:gap-16 2xl:gap-20'>
     <Image
@@ -40,10 +43,15 @@ export const ProjectItem = ({
       </p>
       <div className='mt-4 flex items-center gap-5 xl:mt-6'>
         <Link
-          className='flex items-center gap-1 border border-gray-500 px-4 py-2 transition-all duration-500 hover:scale-110 hover:cursor-pointer'
+          className={twMerge(
+            'flex items-center gap-1 border border-gray-500 px-4 py-2 transition-all duration-500 hover:scale-110 hover:cursor-pointer',
+            disabled && 'pointer-events-none opacity-50'
+          )}
           href={pageHref}
           rel='noopener noreferrer'
           target='_blank'
+          aria-disabled={disabled}
+          tabIndex={disabled ? -1 : undefined}
         >
           <span className='font-medium'>Explore</span>
           <Image

@@ -7,15 +7,14 @@ export const Degree = () => (
       alt='Order'
       width={46}
       height={33}
-      className='h-[33px] w-[46px]'
+      className='h-8.25 w-11.5'
     />
-    <div className='flex flex-col items-center gap-y-2 md:gap-y-4'>
+    <div className='flex flex-col items-start gap-y-2 md:gap-y-4'>
       <h2 className='font-thin md:text-xl xl:text-2xl'>
         Bachelor of Computer Science
       </h2>
-      <h2 className='font-thin md:text-xl xl:text-2xl'>
-        Master of Project Management
-      </h2>
+      <h2 className='font-thin md:text-xl xl:text-2xl'>Master of Management</h2>
+      <h2 className='font-thin md:text-xl xl:text-2xl'>Y Combinator P26</h2>
     </div>
   </div>
 );

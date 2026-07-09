@@ -1,10 +1,8 @@
 import { twMerge } from 'tailwind-merge';
-import { DownloadCV } from '@/components/DownloadCV';
 import Link from 'next/link';
 
 interface NavigationProps {
   className?: string;
-  downloadCV?: boolean;
   onClick?: () => void;
 }
 
@@ -20,11 +18,7 @@ const navigationItems: NavigationItem[] = [
   { href: '#contact', name: 'Contact' },
 ];
 
-export const Navigation = ({
-  className,
-  downloadCV,
-  onClick,
-}: NavigationProps) => (
+export const Navigation = ({ className, onClick }: NavigationProps) => (
   <nav
     className={twMerge('font-regular z-50 flex gap-10 xl:text-lg', className)}
   >
@@ -38,6 +32,5 @@ export const Navigation = ({
         {name}
       </Link>
     ))}
-    {downloadCV && <DownloadCV className='mt-10 flex font-medium' />}
   </nav>
 );

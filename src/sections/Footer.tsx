@@ -1,5 +1,4 @@
 import { Logo } from '@/components/Logo';
-import { DownloadCV } from '@/components/DownloadCV';
 import { HeroContact } from '@/components/HeroContact';
 import { Navigation } from '@/components/Navigation';
 
@@ -13,8 +12,7 @@ export const Footer = () => (
     </div>
     <div className='border-opacity-20 border-t border-white'>
       <div className='container mx-auto h-full px-4 py-6'>
-        <div className='flex w-full items-center justify-between'>
-          <DownloadCV />
+        <div className='flex w-full items-center justify-end'>
           <div className='flex items-center gap-5'>
             <span className='text-xs font-extralight'>FOLLOW ME:</span>
             <HeroContact />
