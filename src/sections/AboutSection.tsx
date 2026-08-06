@@ -24,7 +24,7 @@ export const AboutSection = () => (
       <article className='text-base leading-relaxed font-light text-gray-800 md:text-lg'>
         I&apos;m an AI engineer (TypeScript / React) building LLM agents and
         full-stack products on top of foundation models. At Y Combinator (P26)
-        I co-founded TesterArmy as its lead engineer and built an AI agent that
+        I co-founded TesterArmy as its engineer and built an AI agent that
         autonomously tests web and mobile apps.
         <br />
         <br />
