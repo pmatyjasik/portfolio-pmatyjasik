@@ -22,19 +22,22 @@ export const AboutSection = () => (
     <SectionTitle title='About me' />
     <div>
       <article className='text-base leading-relaxed font-light text-gray-800 md:text-lg'>
-        I&apos;m an AI engineer (TypeScript / React) building LLM agents and
-        full-stack products on top of foundation models. At Y Combinator (P26)
-        I co-founded TesterArmy as its engineer and built an AI agent that
-        autonomously tests web and mobile apps.
+        I&apos;m a full-stack product engineer (TypeScript / React) with 5+
+        years of shipping end-to-end - from high-traffic frontend at one of
+        Poland/CEE&apos;s largest media groups to co-founding TesterArmy (Y
+        Combinator P26), where I built an AI agent that autonomously tests web
+        and mobile apps.
         <br />
         <br />
-        Before that, I spent ~3 years building high-traffic frontend at Grupa
-        Wirtualna Polska, one of the largest media groups in Poland/CEE. I work
-        across the stack and focus on making AI reliable in real products.
+        At TesterArmy I built the product end-to-end: frontend, backend,
+        database and the agent itself. We shipped the MVP to 30+ companies
+        during the batch. Before that, I spent ~3 years at Grupa Wirtualna
+        Polska building features across the stack for high-traffic products,
+        plus internal AI agents automating developer workflows.
         <br />
         <br />
-        In my free time I ship my own AI-powered iOS apps (Isao, Kai - React
-        Native + LLMs, live on the App Store).
+        On the side I&apos;ve built and shipped my own AI-powered iOS apps
+        (React Native + LLMs) to the App Store.
       </article>
       <div className='mt-16 flex items-center gap-5'>
         <h2 className='min-w-fit font-syne text-lg font-bold text-gray-800 md:text-xl lg:text-2xl'>

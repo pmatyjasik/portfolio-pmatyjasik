@@ -13,7 +13,7 @@ export const ProjectsSection = () => (
           src='/images/isao.png'
           alt='Isao - Daily Quotes'
           title='Isao - Daily Quotes'
-          description='AI-powered iOS app: daily motivational quotes personalized to the user&apos;s goals by an LLM. Live on the App Store.'
+          description='AI-powered iOS app: daily motivational quotes personalized to the user&apos;s goals by an LLM. Shipped to the App Store.'
           technologies='React Native, Typescript, LLM-based personalization'
           pageHref='https://apps.apple.com/us/app/isao-daily-quotes/id6755051258'
           disabled
@@ -22,7 +22,7 @@ export const ProjectsSection = () => (
           src='/images/kai.png'
           alt='Kai - Smart Shopping List'
           title='Kai - Smart Shopping List'
-          description='iOS shopping-list app with AI-powered item categorization and real-time sync across multiple lists. Live on the App Store.'
+          description='iOS shopping-list app with AI-powered item categorization and real-time sync across multiple lists. Shipped to the App Store.'
           technologies='React Native, Typescript, AI categorization'
           pageHref='https://apps.apple.com/pl/app/kai-grocery-list/id6747010480'
           disabled

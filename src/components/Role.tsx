@@ -10,7 +10,7 @@ export const Role = () => (
       className='h-4.75 w-9.5'
     />
     <h2 className='text-xl font-normal text-gray-400 lg:text-xl xl:text-2xl 2xl:text-2xl'>
-      Senior Software Engineer | AI Engineer
+      Full-Stack Product Engineer
     </h2>
   </div>
 );

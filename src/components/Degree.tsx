@@ -14,7 +14,6 @@ export const Degree = () => (
         Bachelor of Computer Science
       </h2>
       <h2 className='font-thin md:text-xl xl:text-2xl'>Master of Management</h2>
-      <h2 className='font-thin md:text-xl xl:text-2xl'>Y Combinator P26</h2>
     </div>
   </div>
 );

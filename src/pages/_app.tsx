@@ -9,22 +9,22 @@ export default function App({ Component, pageProps }: AppProps) {
       <Head>
         <meta
           name='description'
-          content='Piotr Matyjasik - AI engineer (TypeScript / React) building LLM agents and full-stack products. Ex-founder @ TesterArmy (YC P26). Explore my projects and experience.'
+          content='Piotr Matyjasik - full-stack product engineer (TypeScript / React) with 5+ years of shipping end-to-end. Built an AI agent at TesterArmy (YC P26). Explore my projects and experience.'
         />
         <link rel='shortcut icon' href='/favicon.ico' />
         <meta property='og:type' content='website' />
         <meta
           property='og:title'
-          content='Piotr Matyjasik - AI Engineer (TypeScript / React)'
+          content='Piotr Matyjasik - Full-Stack Product Engineer'
         />
         <meta
           property='og:description'
-          content='Piotr Matyjasik - AI engineer (TypeScript / React) building LLM agents and full-stack products. Ex-founder @ TesterArmy (YC P26). Explore my projects and experience.'
+          content='Piotr Matyjasik - full-stack product engineer (TypeScript / React) with 5+ years of shipping end-to-end. Built an AI agent at TesterArmy (YC P26). Explore my projects and experience.'
         />
         <meta property='og:image' content='/og-image.png' />
         <meta name='theme-color' content='#000000' />
         <link rel='apple-touch-icon' href='/favicon.ico' />
-        <title>Piotr Matyjasik - AI Engineer</title>
+        <title>Piotr Matyjasik - Full-Stack Product Engineer</title>
         <meta
           name='viewport'
           content='width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=3.0'
