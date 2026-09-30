@@ -19,7 +19,7 @@ export const ExperienceSection = () => (
         date='March 2026 - July 2026'
         company='TESTERARMY (Y COMBINATOR P26)'
         position='Software Engineer & Co-Founder'
-        description='Co-founded a Y Combinator (P26) startup and built the product end-to-end: frontend, backend, database and the agent itself. Built an AI agent that autonomously tests web and mobile apps - an LLM tool-calling loop with context management keeping long sessions coherent. Shipped the MVP to 30+ companies during the YC batch, iterating weekly on real user feedback.'
+        description='Co-founded a Y Combinator (P26) startup and built the product end-to-end: frontend, backend, database and the agent itself. Built an AI agent that autonomously tests web and mobile apps - an LLM tool-calling loop with context management keeping long sessions coherent. Owned product direction as CPO - user research, specs and prioritization - alongside the hands-on engineering work. Shipped the MVP to 30+ companies during the YC batch, iterating weekly on real user feedback.'
         technologies='TypeScript, React, Next.js, Node.js, PostgreSQL, Playwright, LLMs, AI Agents, tool-calling, context engineering'
       />
       <TimelineItem
