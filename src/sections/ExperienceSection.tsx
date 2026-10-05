@@ -26,8 +26,8 @@ export const ExperienceSection = () => (
         date='May 2023 - March 2026'
         company='GRUPA WIRTUALNA POLSKA'
         position='Frontend Developer'
-        description='Built and shipped features across the stack - React/TypeScript/Next.js on the frontend, Node.js services and database work on the backend - for high-traffic products. Designed and developed AI agents automating internal workflows, including an agent generating analytics event-tracking scripts, cutting manual scripting work to a fraction of the time. Implemented tracking and web analytics (tag management, tracking pixels), enabling product and marketing teams to measure and act on user behavior.'
-        technologies='TypeScript, React, Next.js, Node.js, LLM APIs (AI agents), GraphQL, TailwindCSS'
+        description='Built and shipped features across the stack - React/TypeScript/Next.js on the frontend, Node.js services and MySQL on the backend - for high-traffic products. Designed and developed AI agents automating internal workflows, including an agent generating analytics event-tracking scripts, cutting manual scripting work to a fraction of the time. Contributed to CI pipelines and Docker image builds, taking features from code to production. Implemented tracking and web analytics (tag management, tracking pixels), enabling product and marketing teams to measure and act on user behavior.'
+        technologies='TypeScript, React, Next.js, Node.js, MySQL, Docker, CI, LLM APIs (AI agents), GraphQL, TailwindCSS'
       />
       <TimelineItem
         date='September 2022 - May 2023'
