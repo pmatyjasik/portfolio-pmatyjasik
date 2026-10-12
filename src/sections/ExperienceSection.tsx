@@ -20,28 +20,28 @@ export const ExperienceSection = () => (
         company='TESTERARMY (Y COMBINATOR P26)'
         position='Software Engineer & Co-Founder'
         description='Co-founded a Y Combinator (P26) startup and built the product end-to-end: frontend, backend, database and the agent itself. Built an AI agent that autonomously tests web and mobile apps - an LLM tool-calling loop with context management keeping long sessions coherent. Owned product direction as CPO - user research, specs and prioritization - alongside the hands-on engineering work. Shipped the MVP to 30+ companies during the YC batch, iterating weekly on real user feedback.'
-        technologies='TypeScript, React, Next.js, Node.js, PostgreSQL, Playwright, LLMs, AI Agents, tool-calling, context engineering'
+        technologies='TypeScript, JavaScript, React, Next.js, Node.js, PostgreSQL, Playwright, Git, LLMs, AI Agents, tool-calling, context engineering'
       />
       <TimelineItem
         date='May 2023 - March 2026'
         company='GRUPA WIRTUALNA POLSKA'
         position='Frontend Developer'
         description='Built and shipped features across the stack - React/TypeScript/Next.js on the frontend, Node.js services and MySQL on the backend - for high-traffic products. Designed and developed AI agents automating internal workflows, including an agent generating analytics event-tracking scripts, cutting manual scripting work to a fraction of the time. Contributed to CI pipelines and Docker image builds, taking features from code to production. Implemented tracking and web analytics (tag management, tracking pixels), enabling product and marketing teams to measure and act on user behavior.'
-        technologies='TypeScript, React, Next.js, Node.js, MySQL, Docker, CI, LLM APIs (AI agents), GraphQL, TailwindCSS'
+        technologies='TypeScript, JavaScript, React, Next.js, Node.js, Go, MySQL, Docker, Git, CI, LLM APIs (AI agents), GraphQL, TailwindCSS'
       />
       <TimelineItem
         date='September 2022 - May 2023'
         company='FUJITSU'
         position='Frontend Developer'
         description='Developed a React application for displaying and manipulating large volumes of complex enterprise data, backed by REST APIs and MySQL. Resolved issues across the frontend and backend, owning problems end-to-end, and co-defined business requirements and project milestones with cross-functional stakeholders.'
-        technologies='TypeScript, JavaScript, React, C#, MySQL, REST API, HTML, CSS'
+        technologies='TypeScript, JavaScript, React, C#, MySQL, REST API, HTML, CSS, Git'
       />
       <TimelineItem
         date='June 2021 - September 2022'
         company='ETECHNOLOGIE'
         position='Frontend Developer'
         description='Designed, built and improved eLearning and eCommerce platforms - PHP/WordPress with MySQL on the backend, JavaScript/React on the frontend. Tested frontend features, troubleshot issues across the stack and worked directly with business and product teams to ship improvements.'
-        technologies='JavaScript, React, PHP, WordPress, MySQL, REST API, Cypress'
+        technologies='JavaScript, React, PHP, WordPress, MySQL, REST API, Cypress, Git'
       />
       <TimelineItem
         date='October 2020 - June 2021'
